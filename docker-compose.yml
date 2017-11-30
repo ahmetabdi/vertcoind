@@ -7,7 +7,6 @@ services:
     command: vertcoind -conf=/data/vertcoin.conf
     volumes:
       - .:/data
-      - ./app:/app
     ports:
       - "5888:5888"
       - "5889:5889"
